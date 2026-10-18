@@ -1,0 +1,7 @@
+path: data/weapon_detection
+
+train: images/train
+val: images/val
+
+nc: 2
+names: ['knife', 'pistol']

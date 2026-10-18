@@ -1,0 +1,12 @@
+{
+  "name": "cctv-fullstack",
+  "private": true,
+  "scripts": {
+    "backend": "venv\\Scripts\\python.exe -m uvicorn backend.main:app --reload",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

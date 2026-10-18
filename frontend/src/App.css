@@ -1,0 +1,7 @@
+/* App.css is intentionally left minimalistic. All global styles and design system tokens are in index.css */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
